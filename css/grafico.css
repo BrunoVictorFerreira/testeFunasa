@@ -1,0 +1,160 @@
+@media (max-width: 1599px) {
+    #divGraficoGeral {
+        width: 100%;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    body {
+        background-size: 100%;
+
+    }
+
+    #graficoPng {
+        max-width: 50px;
+        margin-top: 3%;
+        margin-left: 35%;
+    }
+
+    #h1 {
+        display: inline;
+        margin-left: 4%;
+        color: #335580;
+        font-family: roboto;
+    }
+
+    #divCabeca {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #field {
+        margin-top: 1%;
+        width: 30%;
+        margin-left: 35%;
+        border-bottom: 0;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 2px;
+        border-color: #335580;
+    }
+}
+
+@media (min-width: 1599px) {
+    #divGraficoGeral {
+        width: 100%;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    body {
+        background-size: 100%;
+
+    }
+
+    #graficoPng {
+        max-width: 50px;
+        margin-top: 3%;
+        margin-left: 35%;
+    }
+
+    #h1 {
+        display: inline;
+        margin-left: 4%;
+        color: #335580;
+        font-family: roboto;
+    }
+
+    #divCabeca {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #field {
+        margin-top: 1%;
+        width: 30%;
+        margin-left: 35%;
+        border-bottom: 0;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 2px;
+        border-color: #335580;
+    }
+}
+
+
+@media (min-width: 1919px) {
+    #divGraficoGeral {
+        width: 90%;
+        margin-left: 8%;
+
+        display: block;
+    }
+
+    #graficoPng {
+        max-width: 50px;
+        margin-top: 3%;
+        margin-left: 35%;
+    }
+
+    #h1 {
+        display: inline;
+        margin-left: 6%;
+        color: #335580;
+        font-family: roboto;
+    }
+
+    #divCabeca {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    #field {
+        margin-top: 1%;
+        width: 30%;
+        margin-left: 35%;
+        border-bottom: 0;
+        border-left: 0;
+        border-right: 0;
+        border-radius: 2px;
+        border-color: #335580;
+    }
+
+    #footerBemVindo {
+        background-color: #1f477a;
+        color: white;
+        padding: 2px;
+        position: fixed;
+        bottom: 0;
+        left: -5px;
+        right: 0;
+        width: 100%;
+
+    }
+
+    #relDem {
+        width: 60%;
+        padding: 0;
+
+        display: inline-block;
+    }
+
+    #tiposis {
+
+        display: inline-block;
+        border-left: 2px solid rgba(0, 0, 0, .1);
+        padding: 0;
+        width: 39%;
+        margin-bottom: 5%;
+    }
+
+
+
+}

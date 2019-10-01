@@ -1,0 +1,135 @@
+body {
+    background-image: url('../img/backDemandas.jpg');
+    background-size: 100%;
+}
+
+.thTitulo{
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color:#cecece;
+    font-size: 14px;
+    border-top: 1px solid black;
+}
+.tdTitulo{
+    font-size: 10px;
+}
+.tdTitulo{
+    font-size: 10px;
+}
+.thTabela{
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color:#cecece;
+    font-size: 14px;
+    border-top: 1px solid black;
+}
+.thMotivo{
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color:#cecece;
+    font-size: 12px;
+    border-top: 1px solid black;
+}
+.thImpacto{
+    padding-right: 60px;
+    padding-left: 60px;
+    background-color:#cecece;
+    font-size: 14px;
+    border-top: 1px solid black;
+}
+.tdImpacto{
+    font-size: 11px;
+}
+.tdMotivo{
+    font-size: 11px;
+}
+.tdObjetivo{
+    font-size: 11px;
+}
+.tdBen{
+    font-size: 10px;
+}
+.tdObs{
+    font-size: 11px;
+}
+.thAlinhamento{
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color:#cecece;
+    font-size: 11px;
+    border-top: 1px solid black;
+}
+.thBen{
+    padding-right: 5px;
+    padding-left: 5px;
+    background-color:#cecece;
+    font-size: 14px;
+    border-top: 1px solid black;
+}
+.thObjetivo{
+    padding-right: 40px;
+    padding-left: 40px;
+    background-color:#cecece;
+    font-size: 14px;
+    border-top: 1px solid black;
+}
+.thObs{
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color:#cecece;
+    font-size: 14px;
+    border-top: 1px solid black;
+}
+.tdResp{
+    font-size: 10px;
+}
+.tdData{
+    font-size: 10px;
+}
+.tdCadastro{
+    font-size: 10px;
+}
+.tdTipo{
+    font-size: 10px;
+}
+.tdUnidade{
+    font-size: 10px;
+}
+@keyframes opacity{
+    0%{
+        opacity:0;
+    }100%{
+        opacity:100;
+    }
+}
+/* Tooltip container */
+.tooltip {
+position: relative;
+display: inline-block;
+/* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+visibility: hidden;
+width: 180px;
+background-color: rgba(0,0,0,.0);
+color: #1f477a;
+font-family: roboto;
+font-size: 13px;
+text-align: center;
+padding: 5px 0;
+border-radius: 6px;
+
+/* Position the tooltip text - see examples below! */
+position: absolute;
+z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+
+animation-name: opacity;
+animation-duration: 1s;
+visibility: visible;
+}

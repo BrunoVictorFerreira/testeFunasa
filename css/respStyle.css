@@ -1,0 +1,193 @@
+body {
+    background-image: url('../img/backCadResponsavel.jpg');
+
+}
+
+#labelNome {
+    font-family: roboto;
+    margin-left: 3%;
+    width: 20%;
+    font-weight: bold;
+}
+
+#inputNome {
+    padding: 5px;
+    font-family: 'Raleway';
+    font-size: 15px;
+
+    border: 1;
+    outline: 0;
+    border-color: rgb(102, 122, 179);
+    width: 80%;
+    margin-bottom: 2%;
+
+}
+
+#labelsobrenome {
+    font-family: roboto;
+    margin-left: 3%;
+    width: 20%;
+    font-weight: bold;
+
+}
+
+#inputsobrenome {
+    padding: 5px;
+    font-family: 'Raleway';
+    font-size: 15px;
+
+    border: 1;
+    outline: 0;
+    border-color: rgb(102, 122, 179);
+    width: 80%;
+    margin-bottom: 2%;
+
+}
+
+#labelTelefone {
+    font-family: roboto;
+    margin-left: 3%;
+    width: 20%;
+    font-weight: bold;
+}
+
+#inputTelefone {
+    padding: 5px;
+    font-family: 'Raleway';
+    font-size: 15px;
+
+    border: 1;
+    outline: 0;
+    border-color: rgb(102, 122, 179);
+    width: 80%;
+    margin-bottom: 2%;
+
+}
+
+#labelEmail {
+    font-family: roboto;
+    margin-left: 3%;
+    width: 20%;
+    font-weight: bold;
+}
+
+#inputEmail {
+    padding: 5px;
+    font-family: 'Raleway';
+    font-size: 15px;
+
+    border: 1;
+    outline: 0;
+    border-color: rgb(102, 122, 179);
+    width: 80%;
+    margin-bottom: 2%;
+
+}
+
+#labelSiape {
+    font-family: roboto;
+    margin-left: 3%;
+    width: 20%;
+    font-weight: bold;
+}
+
+#inputSiape {
+    padding: 5px;
+    font-family: 'Raleway';
+    font-size: 15px;
+
+    border: 1;
+    outline: 0;
+    border-color: rgb(102, 122, 179);
+    width: 30%;
+    margin-bottom: 2%;
+
+}
+
+#labelSenha {
+    font-family: roboto;
+    margin-left: 3%;
+    width: 20%;
+    font-weight: bold;
+}
+
+#inputSenha {
+    padding: 5px;
+    font-family: 'Raleway';
+    font-size: 15px;
+
+    border: 1;
+    outline: 0;
+    border-color: rgb(102, 122, 179);
+    width: 30%;
+    margin-bottom: 2%;
+
+}
+#labelSetor {
+    font-family: roboto;
+    font-weight: bold;
+    margin-left: 3%;
+    font-size: 15.5px;
+
+}
+
+#inputSetor {
+    width: 100%;
+    padding: 3px;
+    font-size: 15px;
+    border-radius: 5px;
+    outline: 0;
+    font-family: raleway;
+    font-weight: bold;
+
+    margin-bottom: 2%;
+
+
+
+}
+
+#btnSetor {
+    background-color: rgb(53, 86, 129);
+    cursor: pointer;
+    outline: 0;
+    color: white;
+    border: 2px solid rgb(53, 86, 129);
+    border-radius: 50px;
+    margin-left: 20%;
+
+
+}
+#botaoCad {
+    margin-top: 2%;
+    border: 1px solid #022e68;
+    background-color: #325480;
+    padding: 8px;
+    color: white;
+    font-family: raleway;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 1%;
+}
+
+#imgFunasaCadResponsavel {
+    max-width: 200px;
+    margin-left: 19%;
+
+
+    position: relative;
+    margin-top: 15%;
+}
+
+#footerCadResponsavel {
+    background-color: #1f477a;
+    color: white;
+    padding: 2px;
+
+    position: absolute;
+    bottom: 0;
+    left: -4;
+    right: 0;
+    width: 100%;
+}

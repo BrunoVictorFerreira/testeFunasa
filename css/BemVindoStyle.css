@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-image: url('../img/backIndex.jpg');
+
+}
+
+
+#footerBemVindo {
+    background-color: #1f477a;
+    color: white;
+    padding: 2px;
+    position: absolute;
+    bottom: 0;
+    left: -5px;
+    right: 0;
+    width: 100%;
+}
+
+.focus-in-expand {
+    animation: focus-in-expand 1.2s cubic-bezier(.25, .46, .45, .94) both
+}
+
+@keyframes focus-in-expand {
+    0% {
+        letter-spacing: -.5em;
+        filter: blur(12px);
+        opacity: 0
+    }
+
+    100% {
+        filter: blur(0);
+        opacity: 1
+    }
+}
+
+.tracking-in-contract {
+    animation: tracking-in-contract .8s cubic-bezier(.215, .61, .355, 1.000) both
+}
+
+@keyframes tracking-in-contract {
+    0% {
+        letter-spacing: 1em;
+        opacity: 0
+    }
+
+    40% {
+        opacity: .6
+    }
+
+    100% {
+        letter-spacing: normal;
+        opacity: 1
+    }
+}
+
+.text-focus-in {
+    animation: text-focus-in 1s cubic-bezier(.55, .085, .68, .53) both
+}
+
+@keyframes text-focus-in {
+    0% {
+        filter: blur(12px);
+        opacity: 0
+    }
+
+    100% {
+        filter: blur(0);
+        opacity: 1
+    }
+}
+.tooltip {
+position: relative;
+display: inline-block; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+visibility: hidden;
+width: 100%;
+background-color: #325480;
+color: #fff;
+text-align: center;
+padding: 5px 0;
+border-radius: 6px;
+font-family:handlee;
+
+/* Position the tooltip text - see examples below! */
+position: absolute;
+z-index: 1;
+margin-left: -5%;
+margin-top: 12%;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+visibility: visible;
+}
+@media (min-width: 576px) {
+
+}
+
+
+@media (min-width: 1599px) { 
+#divGeral{
+    box-shadow:4px 3px rgba(0,0,0,.2);
+    background-color: rgba(220,220,220,.6);
+    margin-left: 3%;
+    width: 60%;
+    padding-bottom: 6%;
+    border-radius: 0px 0px 0px 20px;
+}
+#divComoUsar{
+    margin-left:-3%;
+    box-shadow:4px 3px rgba(0,0,0,.5);
+    margin-top: 8%;
+    background-color:#325480;
+    padding: 20px;
+    width: 100%;
+    border-radius: 0px 20px 0 20px;
+}
+#pComoUsar{
+    font-size: 25px;
+    font-family: roboto;
+    font-weight: bold;
+    color:white;
+}
+#spanPasse{
+    font-size: 15px;
+    color:#19877d;
+}
+#cadastrarResponsaveis{
+    box-shadow:1px 1px rgba(0,0,0,.5);
+    margin-left: 3%;
+    margin-right: 1%;
+    background-color:rgba(0,0,0,.0);
+    border: 2px solid #325480;
+    color:#325480;
+    font-family: roboto;
+    padding: 10px;
+    border-radius: 5px;
+}
+#cadastrarDemandas{
+    box-shadow:1px 1px rgba(0,0,0,.5);
+    margin-left: 2%;
+    background-color:rgba(0,0,0,.0);
+    border: 2px solid #325480;
+    color:#325480;
+    font-family: roboto;
+    padding: 10px;
+    border-radius: 5px;
+}
+#demandas{
+    box-shadow:1px 1px rgba(0,0,0,.5);
+    margin-top:5%;
+    margin-left: 3%;
+    background-color:rgba(0,0,0,.0);
+    border: 2px solid #325480;
+    color:#325480;
+    font-family: roboto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+}
+
+
+@media (min-width: 1900px) {
+#divGeral{
+    box-shadow:4px 3px rgba(0,0,0,.2);
+    background-color: rgba(220,220,220,.6);
+    width: 50%;
+    padding-bottom: 6%;
+    border-radius: 0px 0px 0px 20px;
+}
+#divComoUsar{
+    margin-left:-3%;
+    box-shadow:4px 3px rgba(0,0,0,.5);
+    margin-top: 8%;
+    background-color:#325480;
+    padding: 20px;
+    width: 100%;
+    border-radius: 0px 20px 0 20px;
+}
+#pComoUsar{
+    font-size: 25px;
+    font-family: roboto;
+    font-weight: bold;
+    color:white
+}
+#spanPasse{
+    font-size: 15px;
+    color:#19877d;
+}
+#cadastrarResponsaveis{
+    box-shadow:1px 1px rgba(0,0,0,.5);
+    margin-left: 7%;
+    margin-right: 1%;
+    background-color:rgba(0,0,0,.0);
+    border: 2px solid #325480;
+    color:#325480;
+    font-family: roboto;
+    padding: 10px;
+    border-radius: 5px;
+}
+#cadastrarDemandas{
+    box-shadow:1px 1px rgba(0,0,0,.5);
+    margin-left: 2%;
+    background-color:rgba(0,0,0,.0);
+    border: 2px solid #325480;
+    color:#325480;
+    font-family: roboto;
+    padding: 10px;
+    border-radius: 5px;
+}
+#demandas{
+    box-shadow:1px 1px rgba(0,0,0,.5);
+    margin-top:5%;
+    margin-left: 3%;
+    background-color:rgba(0,0,0,.0);
+    border: 2px solid #325480;
+    color:#325480;
+    font-family: roboto;
+    padding: 10px;
+    border-radius: 5px;
+}
+}

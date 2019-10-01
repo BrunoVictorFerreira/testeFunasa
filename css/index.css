@@ -1,0 +1,289 @@
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        body{
+            
+        }
+        #barra-lateral{
+
+            height: 100%;
+            background-color:#1f477a;
+            float: left;
+            bottom: 0;
+            left: 0;
+            position: fixed;
+            box-shadow: 4px 2px rgba(0,0,0,.2);
+
+        }
+        
+        #section{
+            margin-left: 15%;
+        }
+        #nomeSessao{
+
+            color: white;
+            text-align:center;
+            font-family: roboto;
+            text-transform: uppercase;
+
+
+        }
+        #usuariotitle{
+
+            text-align: center;
+            
+            font-family: roboto;
+            margin-top: 2%;
+
+        }
+        #imgFunasa{
+
+            max-width: 200px;
+            margin-left:auto;
+            margin-right: auto;
+            display: block;
+            margin-top: 5%;
+
+        }
+        #select{
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            margin-top: 3%;
+            padding: 5px;
+            font-family: roboto;
+            border-radius: 5px;
+
+        }
+        #senhatitle{
+            text-align: center;
+            
+            font-family: roboto;
+        }
+        #telefoneTitle{
+            text-align: center;
+            font-family: roboto;
+            margin-top: 2%;
+        }
+        
+        #usuarioCamp{
+
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            padding: 5px;
+            border-radius: 5px;
+            outline: 0;
+            box-shadow: 0;
+            border-color:rgb(102,122,179);
+            font-size:15;
+            
+        }
+        #senhaCamp{
+
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            padding: 5px;
+            border-radius: 5px;
+            outline: 0;
+            box-shadow: none;
+            border-color:rgb(102,122,179);
+            font-size:15;
+        }
+        #boton{
+
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            margin-top: 3%;
+            margin-bottom: 3%;
+            border: 1px solid #022e68;
+            background-color: #325480;
+            padding: 10px;
+            color:white;
+            font-family: roboto;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            -webkit-transition-duration: 0.4s; /* Safari */
+            transition-duration: 0.4s;
+            cursor: pointer;
+          }
+          
+          .button1 {
+            background-color: white; 
+            color: black; 
+            border: 2px solid #4CAF50;
+          }
+          
+          .button1:hover {
+            background-color: #4CAF50;
+            color: white;
+          }
+          
+        #nav{
+
+            margin: 0; 
+            padding: 0;
+            float: left;
+            margin-top: 100px;
+        }
+        #loginTitle{
+
+            font-family: roboto;
+            font-size: 25px;
+            font-weight: bold;
+            margin-top: 10%;
+            
+
+        }
+        .plus{
+
+            max-height: 20px;
+            display: inline-block;
+            padding-right: 4px;
+
+        }
+        #nav li{
+
+            list-style: none;
+            background-color: white;
+            width: 220px;
+            border-bottom: 1px solid white;
+            background-color: #325480;
+            font-family: verdana;
+            font-size: 15px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+        }
+        #nav li:hover{
+
+            list-style: none;
+            background-color: white;
+            width: 220px;
+            border-bottom: 1px solid rgb(211, 45, 45);
+            background-color: rgb(53,70,100);
+            font-family: verdana;
+            font-size: 15px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        #nav li a{
+
+            display: inline-block;
+            padding: 8px;
+            border-left: 3px solid white;
+            text-decoration: none;
+            color: white;
+            width: 100%;
+
+        }
+        #logo{
+            max-width: 150px;
+            max-height: 150px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            margin-top: 5%;
+            
+        }
+        #option1{
+            padding: 5px;
+        }
+        #loginTitle{
+            text-align: center;
+
+        }
+        
+        #demandaTitle{
+
+            text-align: center;
+            font-family: roboto;
+            font-size: 25px;
+            margin-top: 5%;
+
+        }
+        #divPreencha{
+
+            background-color: #cecece;
+            padding: 5px;
+            border-bottom: 1px solid gray;
+
+        }
+        
+        .alinharTexto{
+            text-align:center;
+            font-family: 'Lato', sans-serif;
+        }
+        #fieldDemandas{
+            width: 50%;
+            padding-bottom: 5px;
+        }
+        .alinharObjeto{
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
+        }
+        .alinharRadio{
+            padding-top: 2%;
+            margin-left: 43%;
+        }
+        
+        
+        #footer{
+            background-color: #1f477a;
+            color: white;
+            padding-top: -5px;
+            padding-bottom: -5px;
+            position: relative;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+        }
+        
+        
+        .tituloFooter{
+            font-family: arial;
+            text-align: center;
+            font-size: 13px;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px rgba(0,0,0,.3);
+
+            
+        }
+        #logoFooter{
+            max-width: 0px;
+            max-height: 60px;
+            display: block;
+            position: absolute;
+        }
+        #sair{
+            color:white;
+            text-decoration: none;
+            font-family: roboto;
+            
+            
+        }
+        #parSair
+        {
+            text-align: center;
+            margin-top: 5%;
+        }
+
+
+        
